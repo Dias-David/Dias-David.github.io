@@ -81,7 +81,7 @@ input:hover{
 #restart{
     display: none;
 }
-audio{
+.musique{
     width: min-content;
     position: absolute;
     top: auto;
