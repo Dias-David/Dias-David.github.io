@@ -81,3 +81,9 @@ input:hover{
 #restart{
     display: none;
 }
+audio{
+    width: min-content;
+    position: absolute;
+    top: auto;
+    right: 50px;
+}
