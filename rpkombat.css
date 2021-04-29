@@ -86,4 +86,5 @@ audio{
     position: absolute;
     top: auto;
     right: 50px;
+    padding:1em;
 }
