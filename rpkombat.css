@@ -81,10 +81,13 @@ input:hover{
 #restart{
     display: none;
 }
-.musique{
-    width: min-content;
+audio{
     position: absolute;
     top: auto;
     right: 50px;
-    padding:1em;
+    padding: 1em;
+}
+.espace{
+    display: flex;
+    justify-content: space-between;
 }
