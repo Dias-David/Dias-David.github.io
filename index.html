@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDM</title>
+    <link rel="stylesheet" href="rpkombat.css">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://cdn1.iconfinder.com/data/icons/game-design-butterscotch-vol-1/256/Crossing_Swords-512.png">
+</head>
+
+<body>
+    <header>
+        <div class="espace">
+            <div>
+                <div id="receptacle">
+
+                </div>
+                <div id="space">
+                    Niveau <span>1</span>
+                </div>
+            </div>
+            <audio controls loop>
+                <source src="battle.mp3" type="audio/mp3">
+                </src>
+                <source src="battle.wav" type="audio/wav">
+                </src>
+
+            </audio>
+        </div>
+        <h1 id="nomunique"> RANDOM COMBAT </h1>
+
+
+
+    </header>
+    <div class="content">
+
+        <div class="hidden"> <img id="imghero" src="hero1.gif" alt=""></div>
+
+        <div class="hidden"><img id="imgmob" src="monster1.gif" alt=""></div>
+
+        <div id="message"> <img id="imgwin" src="" alt=""> </div>
+    </div>
+
+    <div class="center">
+
+        <input id="bouton" type="button" value="Combattre" onclick="combat()">
+        <input id="restart" type="button" value="Restart" onclick="restart()">
+
+    </div>
+    <input id="regles" type="button" value="Info">
+    <div id="menu">
+        <button class="fermer"> X </button>
+        <div>
+            <h2>| But du Jeu |</h2>
+            <p>Le jeu se compose de 10 niveaux.</p>
+            <p> Affronter différents adversaire pour atteindre le boss final.</p>
+            <p>Remporter des combats vous fera avancer de niveau et fera evoluer votre héro. </p>
+            <p>Les combats sont totalements aléatoires et plus difficiles a gagner avec les niveaux.</p>
+            <p>Bonne chance et bon jeu!</p>
+        </div>
+    </div>
+
+    <input id="mention" type="button" value="Mentions Légales">
+    <div id="menus">
+        <button class="fermer"> X </button>
+        <div>
+            <p> Powered by : Dias David</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+<script src="rpkombat.js"></script>
